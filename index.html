@@ -1,49 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #000000;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #00e600;
-}
-</style>
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <body>
 
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="#World Hunger" class="w3-button w3-bar-item">World Hunger</a>
+  <a href="#Organization" class="w3-button w3-bar-item">Organizations</a>
+  <a href="#How To Help" class="w3-button w3-bar-item">How To Help</a>
+  <a href="#Contact" class="w3-button w3-bar-item">Contact</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="https://www.borgenmagazine.com/wp-content/uploads/2014/06/World_hunger_Solution_Borgen.jpg"
+  style="width:100%">
+  <img class="mySlides" src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj-gpLgvfLeAhW-wMQHHV9eDisQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26cad%3Drja%26uact%3D8%26ved%3D2ahUKEwjQtrSVvfLeAhWmCTQIHbmSB5wQjRx6BAgBEAU%26url%3Dhttps%253A%252F%252Fwww.borgenmagazine.com%252F7-solutions-world-hunger%252F%26psig%3DAOvVaw2_AH6oycrX8Zg2JmWiDmF5%26ust%3D1543336073302007&psig=AOvVaw2_AH6oycrX8Zg2JmWiDmF5&ust=1543336073302007"
+  style="width:100%">
+  <img class="mySlides" src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwip1qWFvvLeAhWSwcQHHedeBZoQjRx6BAgBEAU&url=https%3A%2F%2Fwww.gofundme.com%2F6atw9-end-world-hunger-2017&psig=AOvVaw2_AH6oycrX8Zg2JmWiDmF5&ust=154333607330200
+  style="width:100%">
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">World Hunger</h2>
+
+</p>
+</section>
+
+<!--  -->
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <p></p>
+    <img src="" alt="" style="width:100%">
+    <p></p>
+  </article>
+  <article class="w3-third">
+    <p></p>
+    <img src="" alt="" style="width:100%">
+    <p>.</p>
+  </article>
+  <article class="w3-third">
+    <p></p>
+    <img src="" alt="" style="width:100%">
+    <p></p>
+  </article>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="https://www.mealsonwheelsamerica.org/"></i></a>
+  <a href="#"><i class="https://www.redcross.org/"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  
+
+<script>
+// Automatic Slideshow - change image every 8 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
 
 </body>
-<p1>one you know works at a store that sells iPods. He steals some and asks if you want to buy one for less than half the price the store sells it for? Should you buy it? Why or why not?
-<p2>
-I probably would buy one, maybe if it wasn't an Ipod, maybe if it was like a new phone that isn't from 2008. Because if the police were to ask me where I got, it I would just say I didn't know it was stolen.
 
 
-
-<p2>
-
-</p2>
-</html>
